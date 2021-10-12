@@ -1,5 +1,3 @@
-### Back End Project With Quarkus
-
 ![GitHub top language](https://img.shields.io/github/languages/top/CarlosRobertoMedeiros/Backend-Java-red)
 ### Design Patterns - Revision
 
@@ -9,9 +7,21 @@
 
 ### Tools and Technologies Used ###
 	
-	#Gof - Design Patterns
+	#GOF - Design Patterns
 		Creational
 			Singleton
-				UserExample
-				DBExample
+			Builder
+		
+		Behavioral
+			Strategy
+			Observer
+			
+		Structural
+			Decorator
+			
+	#SOLID
+		
 	
+	#GRASP
+	
+	#MICROSERVICES - Design Patterns
