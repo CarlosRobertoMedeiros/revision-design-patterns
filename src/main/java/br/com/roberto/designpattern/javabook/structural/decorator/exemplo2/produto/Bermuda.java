@@ -8,6 +8,7 @@ public class Bermuda implements Produto{
     public Bermuda() {
         this.nome = "Bermuda";
         this.preco= 80.00;
+        
     }
 
     @Override
