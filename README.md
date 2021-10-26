@@ -11,7 +11,8 @@
 		Creational
 			Singleton
 			Builder
-			Factory * Is not a design pattern
+			Simple Factory
+			Factory Method
 		
 		Behavioral
 			Strategy

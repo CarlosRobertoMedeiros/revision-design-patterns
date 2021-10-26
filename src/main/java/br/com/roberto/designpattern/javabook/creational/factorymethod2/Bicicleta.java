@@ -3,7 +3,10 @@ package br.com.roberto.designpattern.javabook.creational.factorymethod2;
 public class Bicicleta implements Veiculo{
 
     private String nome;
-    public Bicicleta(String nome) { }
+    public Bicicleta(String nome) {
+        super();
+        this.nome = nome;
+    }
 
     @Override
     public void pickUp(String nomeCliente) {
