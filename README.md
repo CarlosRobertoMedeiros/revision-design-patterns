@@ -13,6 +13,26 @@
 			Builder
 			Simple Factory
 			Factory Method
+				Static Factory Methods
+					Java Examples: 
+						Calendar.getInstance()
+						NumberFormat.getInstance()	
+						Stream.of()
+						List.of()
+						Integer.valueOf()
+					
+					Java Examples Complete Pattern:
+						- DocumentBuilder (ProdutoAbstrato)
+						- DocumentBuilderImpl(ProdutoConcreto)
+						- DocumentBuilderFactory (CriadorAbstrato)	
+						- DocumentBuilderFactoryImpl (CriadorConcreto)
+					
+					JavaEE Examples
+							https://www.devmedia.com.br/como-usar-o-pattern-factory-na-plataforma-java-ee/32814
+							@Produces -- Cria
+							@Inject  -- Usa
+						
+						
 		
 		Behavioral
 			Strategy
