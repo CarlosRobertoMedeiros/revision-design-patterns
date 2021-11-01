@@ -8,6 +8,59 @@
 ### Tools and Technologies Used ###
 	
 	#GOF - Design Patterns
+		
+		CREATIONAL
+		
+			- Factory Method
+				Examples:
+				- Simple Factory
+				- Half Factory
+				- Factory Method
+				- Factory Method Database
+			
+			- Abstract Factory
+				Examples:
+				- Abstract Factory
+				- Abstract Factory Services(By Objects, By Technologies)
+			
+			- Singleton
+				Examples:
+				- Pool de Conexões
+			
+			- Monostate (Alternativa ao Singleton "Uncle Bob")
+				Examples:
+				- Pool de Conexões
+			
+			- Builder
+				Examples:
+				- BuilderFastFood
+				- BuilderFastFood Fluent
+				- BuilderFastFood Programing Functional
+				
+				- BuilderSpolleto
+				- BuilderSpolleto Fluent
+				- BuilderSpolleto Programing Functional
+			
+			- Prototype (Cópia)
+				Examples:
+				- Prototype Animation
+				- Prototype DeepShallow
+				- Prototype Functional CloneBuider(Prototype + Builder)
+		
+		STRUCTURAL
+		
+			- Adapter
+			
+			
+				
+				
+				
+				
+			
+			
+	
+	
+	#GOF - Design Patterns
 		Creational
 			Singleton
 			Builder
