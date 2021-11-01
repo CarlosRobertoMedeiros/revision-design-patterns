@@ -13,6 +13,7 @@
 		
 <p align="center">
 ![alt text](https://github.com/CarlosRobertoMedeiros/revision-design-patterns/blob/master/design_pattern_gof_relation.gif)
+	<img src= "https://github.com/CarlosRobertoMedeiros/revision-design-patterns/blob/master/design_pattern_gof_relation.gif" />
 </p>
 
 
