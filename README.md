@@ -6,7 +6,11 @@
 	- Carlos Roberto Medeiros de Lima
 
 ### Tools and Technologies Used ###
-	
+
+
+![alt text](https://github.com/CarlosRobertoMedeiros/revision-design-patterns/blob/master/design_pattern_gof_relation.gif)
+
+
 	#GOF - Design Patterns
 		
 		CREATIONAL
@@ -55,7 +59,7 @@
 				
 				
 				
-![alt text](https://github.com/CarlosRobertoMedeiros/revision-design-patterns/blob/master/design_pattern_gof_relation.gif)			
+
 			
 			
 	
