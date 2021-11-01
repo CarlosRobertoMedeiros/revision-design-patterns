@@ -18,6 +18,8 @@
 
 		CREATIONAL
 		
+		<p>FOCO: CRIAÇÃO DE OBJETOS ATRAVÉS DE MANEIRA ORGANIZADA E FLEXÍVEL</p>
+		
 			- Factory Method
 				Examples:
 				- Simple Factory
@@ -55,6 +57,8 @@
 				- Prototype Functional CloneBuider(Prototype + Builder)
 		
 		STRUCTURAL
+		
+		<p>FOCO: ESTRUTURAR DIVERSOS OBJETOS E CLASSES DE FORMA EXTENSÍVEL e FLEXÍVEL</p>
 		
 			- Adapter
 			
