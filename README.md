@@ -50,6 +50,11 @@
 		STRUCTURAL
 		
 			- Adapter
+				Examples:
+				- Adapter HDMI and VGA
+				- AdapterProposeHexagonal
+			
+			- Bridge
 			
 			
 				
