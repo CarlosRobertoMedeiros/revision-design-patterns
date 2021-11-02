@@ -6,10 +6,19 @@
 	- Carlos Roberto Medeiros de Lima
 
 ### Tools and Technologies Used ###
-	
+
+
+
 	#GOF - Design Patterns
 		
+<p align="center">
+  <img src= "https://github.com/CarlosRobertoMedeiros/revision-design-patterns/blob/master/design_pattern_gof_relation.gif" />
+</p>
+
+
 		CREATIONAL
+		
+		FOCO: CRIAÇÃO DE OBJETOS REALIZADOS DE MANEIRA ORGANIZADA, FLEXÍVEL E DE FÁCIL COMPOSIÇÃO
 		
 			- Factory Method
 				Examples:
@@ -49,6 +58,8 @@
 		
 		STRUCTURAL
 		
+		FOCO: ESTRUTURAR DIVERSOS OBJETOS E CLASSES DE FORMA EXTENSÍVEL e FLEXÍVEL
+		
 			- Adapter
 				Examples:
 				- Adapter HDMI and VGA
@@ -60,7 +71,7 @@
 				
 				
 				
-				
+
 			
 			
 	
