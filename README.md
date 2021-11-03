@@ -66,6 +66,11 @@
 				- AdapterProposeHexagonal
 			
 			- Bridge
+				Examples:
+				- Bridge Converters Json and CSV
+				- Brigde Dao Database
+				
+			- Composite
 			
 			
 				
