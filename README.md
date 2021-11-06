@@ -71,6 +71,8 @@
 				- Brigde Dao Database
 				
 			- Composite
+				Example:
+				- Composite File and Folders to recursivity
 			
 			
 				
