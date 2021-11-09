@@ -1,0 +1,10 @@
+[
+  {
+    "cliente": "Teatro Nacional",
+    "atuacoes": [
+      {"idPeca": "hamlet", "publicoPagante": "55" },
+      {"idHermanoteu": "hermanoteu", "publicoPagante": "35" },
+      {"idSexo": "sexo", "publicoPagante": "40" }
+    ]
+  }
+]
