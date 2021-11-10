@@ -3,8 +3,16 @@
     "cliente": "Teatro Nacional",
     "atuacoes": [
       {"idPeca": "hamlet", "publicoPagante": "55" },
-      {"idHermanoteu": "hermanoteu", "publicoPagante": "35" },
-      {"idSexo": "sexo", "publicoPagante": "40" }
+      {"idPeca": "hermanoteu", "publicoPagante": "35" },
+      {"idPeca": "sexo", "publicoPagante": "40" }
+    ]
+  },
+  {
+    "cliente": "Teatro Nacional 2",
+    "atuacoes": [
+      {"idPeca": "hamlet", "publicoPagante": "22" },
+      {"idPeca": "hermanoteu", "publicoPagante": "33" },
+      {"idPeca": "sexo", "publicoPagante": "44" }
     ]
   }
 ]

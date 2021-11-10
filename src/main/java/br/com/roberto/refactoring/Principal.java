@@ -1,32 +1,56 @@
 package br.com.roberto.refactoring;
 
+import br.com.roberto.refactoring.to.faturas.ListaAtuacoesTo;
+import br.com.roberto.refactoring.to.pecas.ComposicaoPecasTo;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Principal {
 
+    private static ComposicaoPecasTo composicaoPecasTo;
+    private static ListaAtuacoesTo[] listaAtuacoesTo;
 
     public static void main(String[] args) throws IOException {
+        carregandoPecasTeatrais();
+        carregandoListaDeAtuacoes();
+    }
 
-        String pecaString = "[\n" +
-                "  {\"nome\": \"Hamlet\", \"tipo\": \"Tragedia\"},\n" +
-                "  {\"nome\": \"Hermanoteu na terra de Godah\", \"tipo\": \"Comedia\"},\n" +
-                "  {\"nome\": \"Sexo Melhores do Mundo\", \"tipo\": \"Comedia\"}\n" +
-                "]";
+    private static void carregandoListaDeAtuacoes() {
+        String jsonListaDeAtuacoes = "[\n" +
+                "  {\n" +
+                "    \"cliente\": \"Teatro Nacional\",\n" +
+                "    \"atuacoes\": [\n" +
+                "      {\"idPeca\": \"hamlet\", \"publicoPagante\": \"55\" },\n" +
+                "      {\"idPeca\": \"hermanoteu\", \"publicoPagante\": \"35\" },\n" +
+                "      {\"idPeca\": \"sexo\", \"publicoPagante\": \"40\" }\n" +
+                "    ]\n" +
+                "  },\n" +
+                "  {\n" +
+                "    \"cliente\": \"Teatro Nacional 2\",\n" +
+                "    \"atuacoes\": [\n" +
+                "      {\"idPeca\": \"hamlet\", \"publicoPagante\": \"22\" },\n" +
+                "      {\"idPeca\": \"hermanoteu\", \"publicoPagante\": \"33\" },\n" +
+                "      {\"idPeca\": \"sexo\", \"publicoPagante\": \"44\" }\n" +
+                "    ]\n" +
+                "  }\n" +
+                "]\n";
 
-        Type pecaListType = new TypeToken<ArrayList<Peca>>(){}.getType();
-        List<Peca> pecas = new Gson().fromJson(pecaString , pecaListType);
-        pecas.forEach(System.out::println);
+        listaAtuacoesTo = new Gson().fromJson(jsonListaDeAtuacoes, ListaAtuacoesTo[].class);
+        System.out.println(listaAtuacoesTo);
 
+    }
 
+    private static void carregandoPecasTeatrais(){
 
+        String jsonPecasProduzidas = "{\n" +
+                "    \"hamlet\" : {\"nome\": \"Hamlet\", \"tipo\": \"Tragedia\"},\n" +
+                "    \"hermanoteu\" : {\"nome\": \"Hermanoteu na terra de Godah\", \"tipo\": \"Comedia\"},\n" +
+                "    \"sexo\": {\"nome\": \"Sexo Melhores do Mundo\", \"tipo\": \"Comedia\"}\n" +
+                "}\n";
 
-
+        composicaoPecasTo = new Gson().fromJson(jsonPecasProduzidas,ComposicaoPecasTo.class);
+        System.out.println(composicaoPecasTo);
 
     }
 }

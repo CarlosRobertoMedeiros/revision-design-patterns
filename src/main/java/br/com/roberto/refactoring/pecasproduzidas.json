@@ -1,5 +1,5 @@
-  [
-    {"nome": "Hamlet", "tipo": "Tragedia"},
-    {"nome": "Hermanoteu na terra de Godah", "tipo": "Comedia"},
-    {"nome": "Sexo Melhores do Mundo", "tipo": "Comedia"}
-  ]
+{
+    "hamlet" : {"nome": "Hamlet", "tipo": "Tragedia"},
+    "hermanoteu" : {"nome": "Hermanoteu na terra de Godah", "tipo": "Comedia"},
+    "sexo": {"nome": "Sexo Melhores do Mundo", "tipo": "Comedia"}
+}
