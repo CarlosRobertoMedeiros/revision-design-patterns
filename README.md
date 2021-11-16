@@ -122,4 +122,7 @@
 	
 	#GRASP
 	
+	#JavaEE - Design Patterns With CDI
+	
+	
 	#MICROSERVICES - Design Patterns
